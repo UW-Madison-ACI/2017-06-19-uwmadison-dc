@@ -10,15 +10,15 @@ humandate: "June 19-20, 2017"    # human-readable date (e.g., "Feb 17-18, 2020")
 humantime: "8:30am - 4:30pm"    # human-readable time (e.g., "9:00 am - 4:30 pm")
 startdate: 2017-06-19       # use YYYY-MM-DD format like 2015-01-01
 enddate: 2017-06-20        # use YYYY-MM-DD format like 2015-01-02
-instructor: ["Trisha Adamus", "Karl Broman", "Cameron Cook", "Christina Koch", "Sarah Stevens"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Brian Yandell", "Andy Pohl"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Trisha Adamus"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["TBD"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: "adamus@wisc.edu"      # contact email address for workshop organizer, such as "grace@hopper.org"
 etherpad:  http://pad.software-carpentry.org/2017-06-19-uwmadison        # optional (insert the URL for your Etherpad if you're using one)
 eventbrite: "34081730373"      # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
 day1_am: "Data organization in spreadsheets and OpenRefine"
-day1_pm: "Introduction to R"
-day2_am: "Data analysis and visualization in R"
-day2_pm: "SQL for data management"
+day1_pm: "SQL for data management"
+day2_am: "Introduction to R"
+day2_pm: "Data analysis and visualization in R"
 ---
 <!--
   HEADER
@@ -37,6 +37,10 @@ day2_pm: "SQL for data management"
   displayed if the 'eventbrite' field in the header is not set.
 -->
 {% if page.eventbrite %}
+
+<p>Registration is required and will be available just below, starting at 5:00pm on Monday, May 15. Make sure to read 
+  all details below before registering and to choose appropriately between UW-Madison's Data Carpentry and 
+  Software Carpentry workshops. </p>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
